@@ -5,7 +5,7 @@ import "@/styles/globals.css";
 
 const MyApp: AppType = ({ Component, pageProps }) => {
   return (
-    <main className={GeistSans.className}>
+    <main className={`${GeistSans.className} bg-almost-white`}>
       <Component {...pageProps} />
     </main>
   );
